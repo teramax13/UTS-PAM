@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import { Text, StyleSheet } from "react-native";
 
 const TextInANest = () => {
-  const [titleText, setTitleText] = useState("Bird's Nest");
-  const bodyText = "This is not really a bird nest.";
+  const [titleText, setTitleText] = useState("INI MENU PESANAN SAYA");
+  const bodyText = "HEHE";
 
   const onPressTitle = () => {
-    setTitleText("Bird's Nest [pressed]");
+    setTitleText("INI MENU PESANAN SAYA");
   };
 
   return (

@@ -87,9 +87,14 @@ const FormSearch = ({navigation}) => {
                         onValueChange={(itemValue) => onChangeText({...text, kelas: itemValue})}
                         >
                         <Picker.Item label="Pilih Tanggal Masuk" value="0" />
-                        <Picker.Item label="Reguler" value="reguler" />
-                        <Picker.Item label="Eksekutif" value="eksekutif" />
-                        <Picker.Item label='Bisnis' value="bisnis" />
+                        <Picker.Item label="10/03/2022" value="reguler" />
+                        <Picker.Item label="27/03/2022" value="eksekutif" />
+                        <Picker.Item label="15/05/2022" value="bisnis" />
+                        <Picker.Item label="25/07/2022" value="bisnis" />
+                        <Picker.Item label="13/01/2022" value="bisnis" />
+                        <Picker.Item label="12/04/2022" value="bisnis" />
+                        <Picker.Item label="09/02/2022" value="bisnis" />
+                        <Picker.Item label="04/06/2022" value="bisnis" />
                   </Picker>
                 </View>
             </View>
